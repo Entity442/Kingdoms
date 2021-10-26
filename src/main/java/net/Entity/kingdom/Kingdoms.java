@@ -1,5 +1,7 @@
 package net.Entity.kingdom;
 
+import net.Entity.kingdom.block.ModBlocks;
+import net.Entity.kingdom.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +32,11 @@ public class Kingdoms
 
     public Kingdoms() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        eventBus.addListener(this::setup);
+
+        ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
         eventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
     }
