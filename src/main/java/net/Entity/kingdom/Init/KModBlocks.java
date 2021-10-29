@@ -1,7 +1,6 @@
-package net.Entity.kingdom.block;
+package net.Entity.kingdom.Init;
 
 import net.Entity.kingdom.Kingdoms;
-import net.Entity.kingdom.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
