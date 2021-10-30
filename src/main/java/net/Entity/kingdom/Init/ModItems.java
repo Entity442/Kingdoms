@@ -14,10 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
         public static final RegistryObject<Item> TOWN_HALL = ITEMS.register("town_hall",
                 () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
-        public  static final  RegistryObject<Item> KITCHEN = ITEMS.register("kitchen",
-                () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
-        public  static final  RegistryObject<Item> APIARY = ITEMS.register("apiary",
+        public  static final  RegistryObject<Item> STORAGE_ROOM = ITEMS.register("storage_room",
                 () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-  "layer0": "kingdom:item/apiary"
-   }
+    "layer0": "kingdom:item/storage_room"
+  }
 }

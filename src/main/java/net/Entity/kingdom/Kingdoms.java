@@ -25,7 +25,6 @@ public class Kingdoms
     public Kingdoms() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
-        EntityInit.ENTITIES.register(eventBus);
         ModItems.register(eventBus);
         KModBlocks.register(eventBus);
 
