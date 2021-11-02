@@ -1,5 +1,23 @@
 {
   "item.kingdom.town_hall": "Town Hall",
   "item.kingdom.storage_room":"Storage Room",
+  "item.kingdom.house_small":"House Small",
+  "item.kingdom.house_medium":"House Medium",
+  "item.kingdom.house_large":"House Large",
+  "item.kingdom.apiary":"Apiary",
+  "item.kingdom.chicken_pen":"Chicken Pen",
+  "item.kingdom.cow_pen":"Cow Pen",
+  "item.kingdom.pig_pen":"Pig Pen",
+  "item.kingdom.sheep_pen":"Sheep Pen",
+  "item.kingdom.blacksmith":"Blacksmith",
+  "item.kingdom.fletcher":"Fletcher",
+  "item.kingdom.library":"Library",
+  "item.kingdom.tavern":"Tavern",
+  "item.kingdom.rabbit_pen":"Rabbit Pen",
+  "item.kingdom.guard_post":"Guard Post",
+  "item.kingdom.mineshaft":"Mineshaft",
+  "item.kingdom.merchant_stall":"Merchant Stall",
+
+
   "block.kingdom.oak_chair": "Oak_Chair"
 }

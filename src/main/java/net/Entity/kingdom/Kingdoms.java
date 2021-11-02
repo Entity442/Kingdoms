@@ -1,6 +1,5 @@
 package net.Entity.kingdom;
 
-import net.Entity.kingdom.Init.EntityInit;
 import net.Entity.kingdom.Init.KModBlocks;
 import net.Entity.kingdom.Init.ModItems;
 import net.minecraft.world.level.block.Blocks;
