@@ -1,4 +1,4 @@
-package net.Entity.kingdom.Init;
+package net.Entity.kingdom.Items;
 
 import net.Entity.kingdom.Kingdoms;
 import net.minecraft.world.item.CreativeModeTab;

@@ -1,7 +1,8 @@
 package net.Entity.kingdom;
 
-import net.Entity.kingdom.Init.KModBlocks;
-import net.Entity.kingdom.Init.ModItems;
+import net.Entity.kingdom.Kblock.KModBlocks;
+import net.Entity.kingdom.Items.ModItems;
+import net.Entity.kingdom.entity.EntityTypes;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,7 +27,7 @@ public class Kingdoms
         eventBus.addListener(this::setup);
         ModItems.register(eventBus);
         KModBlocks.register(eventBus);
-
+        EntityTypes.register(eventBus);
         eventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
     }
