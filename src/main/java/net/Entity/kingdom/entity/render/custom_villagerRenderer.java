@@ -7,11 +7,10 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
 
-public class custom_villagerRenderer extends MobRenderer<customVillager, custom_VillagerModel<customVillager>>
-{
+public class custom_villagerRenderer extends MobRenderer<customVillager, custom_VillagerModel<customVillager>> {
 
-    protected static final ResourceLocation TEXTURE =
-                new ResourceLocation(Kingdoms.MOD_ID, "textures/entity/custom_villager.png");
+    protected static final ResourceLocation TEXTURE = new ResourceLocation(Kingdoms.MOD_ID,
+            "textures/entity/custom_villager.png");
 
     public custom_villagerRenderer(EntityRendererProvider.Context context) {
         super(context, new custom_VillagerModel<>(context.bakeLayer(custom_VillagerModel.LAYER_LOCATION)), 0.3f);
@@ -22,4 +21,3 @@ public class custom_villagerRenderer extends MobRenderer<customVillager, custom_
         return TEXTURE;
     }
 }
-

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "kingdom:block/planks_oak",
-		"particle": "kingdom:block/planks_oak"
+		"0": "kingdom:block/planks_acacia",
+		"particle": "kingdom:block/planks_acacia"
 	},
 	"elements": [
 		{

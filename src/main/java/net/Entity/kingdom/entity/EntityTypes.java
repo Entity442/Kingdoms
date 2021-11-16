@@ -11,17 +11,15 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class EntityTypes {
-    public static DeferredRegister<EntityType<?>> ENTITY_TYPES
-            = DeferredRegister.create(ForgeRegistries.ENTITIES, Kingdoms.MOD_ID);
+        public static DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES,
+                        Kingdoms.MOD_ID);
 
-    public static final RegistryObject<EntityType<customVillager>> CUSTOM_VILLAGER =
-            ENTITY_TYPES.register("customVillager",
-                    () -> EntityType.Builder.of(customVillager::new,
-                                    MobCategory.CREATURE).sized(1f, 3f)
-                            .build(new ResourceLocation(Kingdoms.MOD_ID, "customVillager").toString()));
+        public static final RegistryObject<EntityType<customVillager>> CUSTOM_VILLAGER = ENTITY_TYPES.register(
+                        "customvillager",
+                        () -> EntityType.Builder.of(customVillager::new, MobCategory.CREATURE).sized(1f, 3f)
+                                        .build(new ResourceLocation(Kingdoms.MOD_ID, "customvillager").toString()));
 
-
-    public static void register(IEventBus eventBus) {
-        ENTITY_TYPES.register(eventBus);
-    }
+        public static void register(IEventBus eventBus) {
+                ENTITY_TYPES.register(eventBus);
+        }
 }

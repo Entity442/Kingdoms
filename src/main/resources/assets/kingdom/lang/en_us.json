@@ -19,5 +19,13 @@
   "item.kingdom.merchant_stall":"Merchant Stall",
 
 
-  "block.kingdom.oak_chair": "Oak_Chair"
+  "block.kingdom.oak_chair": "Oak Chair",
+  "block.kingdom.crimson_chair": "Crimson Chair",
+  "block.kingdom.acacia_chair": "Acacia Chair",
+  "block.kingdom.dark_oak_chair": "Dark Oak Chair",
+  "block.kingdom.jungle_chair": "Jungle Chair",
+  "block.kingdom.birch_chair": "Birch Chair",
+  "block.kingdom.spruce_chair": "Spruce Chair",
+  "block.kingdom.warped_chair": "Warped Chair"
+
 }

@@ -3,10 +3,13 @@ package net.Entity.kingdom;
 import net.Entity.kingdom.Kblock.KModBlocks;
 import net.Entity.kingdom.Items.ModItems;
 import net.Entity.kingdom.entity.EntityTypes;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
@@ -39,5 +42,21 @@ public class Kingdoms
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
+
+    private void doClientStuff(final FMLClientSetupEvent event) {
+        event.enqueueWork(() -> {
+
+
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.OAK_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.ACACIA_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.BIRCH_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.CRIMSON_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.DARK_OAK_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.JUNGLE_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.SPRUCE_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.WARPED_CHAIR.get(), RenderType.cutout());
+        });
+
+    }
 
 }

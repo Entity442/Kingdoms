@@ -2,18 +2,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "kingdom:block/oak_chair"
+      "model": "kingdom:block/jungle_chair"
     },
     "facing=east": {
-      "model": "kingdom:block/oak_chair",
+      "model": "kingdom:block/jungle_chair",
       "y": 90
     },
     "facing=south": {
-      "model": "kingdom:block/oak_chair",
+      "model": "kingdom:block/jungle_chair",
       "y": 180
     },
     "facing=west": {
-      "model": "kingdom:block/oak_chair",
+      "model": "kingdom:block/jungle_chair",
       "y": 270
     }
   }
