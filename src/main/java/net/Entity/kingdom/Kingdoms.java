@@ -22,7 +22,6 @@ public class Kingdoms
     public static final String MOD_ID = "kingdom";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String KINGDOMS = "kingdoms";
 
 
     public Kingdoms() {

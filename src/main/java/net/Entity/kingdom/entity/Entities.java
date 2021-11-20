@@ -11,17 +11,17 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class Entities {
-        public static DeferredRegister<EntityType<?>> REGISTER = DeferredRegister.create(ForgeRegistries.ENTITIES,
+        public static DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(ForgeRegistries.ENTITIES,
                         Kingdoms.MOD_ID);
 
 
-    public static final RegistryObject<EntityType<BasicVillager>> BASIC_VILLAGER = REGISTER.register("basic_villager",
+    public static final RegistryObject<EntityType<BasicVillager>> BASIC_VILLAGER = ENTITIES.register("basic_villager",
             () -> EntityType.Builder.of(BasicVillager::new, MobCategory.CREATURE).sized(0.8f, 2f)
                     .build(new ResourceLocation(Kingdoms.MOD_ID, "basic_villager").toString()));
 
 
 
     public static void register(IEventBus eventBus) {
-            REGISTER.register(eventBus);
+        ENTITIES.register(eventBus);
         }
 }
