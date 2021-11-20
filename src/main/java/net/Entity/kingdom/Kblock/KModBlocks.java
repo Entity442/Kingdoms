@@ -21,21 +21,21 @@ public class KModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Kingdoms.MOD_ID);
 
     public static final RegistryObject<Block> OAK_CHAIR = registerBlock("oak_chair",
-            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD)));
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
     public static final RegistryObject<Block> CRIMSON_CHAIR = registerBlock("crimson_chair",
-            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD)));
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
     public static final RegistryObject<Block> ACACIA_CHAIR = registerBlock("acacia_chair",
-            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD)));
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
     public static final RegistryObject<Block> DARK_OAK_CHAIR = registerBlock("dark_oak_chair",
-            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD)));
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
     public static final RegistryObject<Block> JUNGLE_CHAIR = registerBlock("jungle_chair",
-            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD)));
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
     public static final RegistryObject<Block> BIRCH_CHAIR = registerBlock("birch_chair",
-            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD)));
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
     public static final RegistryObject<Block> SPRUCE_CHAIR = registerBlock("spruce_chair",
-            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD)));
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
     public static final RegistryObject<Block> WARPED_CHAIR = registerBlock("warped_chair",
-            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD)));
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
 
 
 
