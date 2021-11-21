@@ -7,12 +7,10 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
 
-import javax.naming.Context;
-
 public class BasicVillagerRenderer<Type extends BasicVillager> extends MobRenderer<Type,custom_VillagerModel<Type>> {
 
     private static final ResourceLocation TEXTURE = new ResourceLocation(Kingdoms.MOD_ID,
-            "textures/entities/custom_villager.png");
+            "textures/entity/custom_villager.png");
 
     public BasicVillagerRenderer(EntityRendererProvider.Context context) {
         super(context, new custom_VillagerModel<>(context.bakeLayer(custom_VillagerModel.LAYER_LOCATION)), 0.5f);

@@ -53,13 +53,13 @@ public class ChairBlock extends Block {
         switch ((Direction) state.getValue(FACING)) {
             case SOUTH :
             default :
-                return box(4, 0, 4, 12, 16, 12).move(offset.x, offset.y, offset.z);
+                return box(4, 0, 4, 12, 17, 12).move(offset.x, offset.y, offset.z);
             case NORTH :
-                return box(4, 0, 4, 12, 16, 12).move(offset.x, offset.y, offset.z);
+                return box(4, 0, 4, 12, 17, 12).move(offset.x, offset.y, offset.z);
             case EAST :
-                return box(4, 0, 4, 12, 16, 12).move(offset.x, offset.y, offset.z);
+                return box(4, 0, 4, 12, 17, 12).move(offset.x, offset.y, offset.z);
             case WEST :
-                return box(4, 0, 4, 12, 16, 12).move(offset.x, offset.y, offset.z);
+                return box(4, 0, 4, 12, 17, 12).move(offset.x, offset.y, offset.z);
         }
     }
     @Override
