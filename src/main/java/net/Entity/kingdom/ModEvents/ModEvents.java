@@ -16,4 +16,5 @@ public class ModEvents {
     public static void registerAttributes(EntityAttributeCreationEvent event) {
         event.put(Entities.BASIC_VILLAGER.get(), BasicVillager.createAttributes().build());
     }
+
 }

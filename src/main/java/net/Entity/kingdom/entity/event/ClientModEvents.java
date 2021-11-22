@@ -4,6 +4,7 @@ import net.Entity.kingdom.Kingdoms;
 import net.Entity.kingdom.entity.Entities;
 import net.Entity.kingdom.entity.model.custom_VillagerModel;
 import net.Entity.kingdom.entity.render.BasicVillagerRenderer;
+import net.Entity.kingdom.entity.render.SeatRenderer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -25,5 +26,6 @@ public final class ClientModEvents {
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(Entities.BASIC_VILLAGER.get(), BasicVillagerRenderer::new);
+        event.registerEntityRenderer(Entities.SEAT.get(), SeatRenderer::new);
     }
 }

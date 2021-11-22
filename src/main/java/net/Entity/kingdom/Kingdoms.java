@@ -40,8 +40,6 @@ public class Kingdoms
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
-
-
     private void doClientStuff(final FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
 
