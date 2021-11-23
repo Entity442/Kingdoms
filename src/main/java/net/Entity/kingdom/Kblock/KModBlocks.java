@@ -37,10 +37,22 @@ public class KModBlocks {
     public static final RegistryObject<Block> WARPED_CHAIR = registerBlock("warped_chair",
             () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
 
-
-
-
-
+    public static final RegistryObject<Block> FANCY_OAK_CHAIR = registerBlock("fancy_oak_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
+    public static final RegistryObject<Block> FANCY_CRIMSON_CHAIR = registerBlock("fancy_crimson_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
+    public static final RegistryObject<Block> FANCY_ACACIA_CHAIR = registerBlock("fancy_acacia_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
+    public static final RegistryObject<Block> FANCY_DARK_OAK_CHAIR = registerBlock("fancy_dark_oak_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
+    public static final RegistryObject<Block> FANCY_JUNGLE_CHAIR = registerBlock("fancy_jungle_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
+    public static final RegistryObject<Block> FANCY_BIRCH_CHAIR = registerBlock("fancy_birch_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
+    public static final RegistryObject<Block> FANCY_SPRUCE_CHAIR = registerBlock("fancy_spruce_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
+    public static final RegistryObject<Block> FANCY_WARPED_CHAIR = registerBlock("fancy_warped_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1f ,1)));
 
 
 

@@ -26,6 +26,14 @@
   "block.kingdom.jungle_chair": "Jungle Chair",
   "block.kingdom.birch_chair": "Birch Chair",
   "block.kingdom.spruce_chair": "Spruce Chair",
-  "block.kingdom.warped_chair": "Warped Chair"
+  "block.kingdom.warped_chair": "Warped Chair",
+  "block.kingdom.fancy_oak_chair": "Oak Chair",
+  "block.kingdom.fancy_crimson_chair": "Crimson Chair",
+  "block.kingdom.fancy_acacia_chair": "Acacia Chair",
+  "block.kingdom.fancy_dark_oak_chair": "Dark Oak Chair",
+  "block.kingdom.fancy_jungle_chair": "Jungle Chair",
+  "block.kingdom.fancy_birch_chair": "Birch Chair",
+  "block.kingdom.fancy_spruce_chair": "Spruce Chair",
+  "block.kingdom.fancy_warped_chair": "Warped Chair"
 
 }

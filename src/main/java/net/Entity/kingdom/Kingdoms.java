@@ -52,6 +52,16 @@ public class Kingdoms
             ItemBlockRenderTypes.setRenderLayer(KModBlocks.JUNGLE_CHAIR.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(KModBlocks.SPRUCE_CHAIR.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(KModBlocks.WARPED_CHAIR.get(), RenderType.cutout());
+
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.FANCY_ACACIA_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.FANCY_BIRCH_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.FANCY_CRIMSON_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.FANCY_DARK_OAK_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.FANCY_JUNGLE_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.FANCY_OAK_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.FANCY_SPRUCE_CHAIR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(KModBlocks.FANCY_WARPED_CHAIR.get(), RenderType.cutout());
+
         });
 
     }
